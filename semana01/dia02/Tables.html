@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+    <main class="container">
+        <h2>Tablas</h2>
+
+        <h3>Tablas Basicas</h3>
+        <table border="">
+            <tr>
+                <td>fila 1, celda 1</td>
+                <td>fila 1, celda 2</td>
+                <td>fila 1, celda 3</td>
+
+            </tr>
+            <tr>
+                <td>fila 2, celda 1</td>
+                <td>fila 2, celda 2</td>
+                <td>fila 2, celda 3</td>
+
+            </tr>
+            <tr>
+                <td>fila 3, celda 1</td>
+                <td>fila 3, celda 2</td>
+                <td>fila 3, celda 3</td>
+
+            </tr>
+        </tablen>
+
+        <h3>Tablas Semanticas</h3>
+
+        <table class="striped">
+            <thead>
+                <tr>
+                    <th>Fila 1, celda 1</th>
+                    <th>Fila 1, celda 2</th>
+                    <th>Fila 1, celda 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>fila 2, celda 1</td>
+                    <td>fila 2, celda 2</td>
+                    <td>fila 2, celda 3</td>
+
+                </tr>
+                <tr>
+                    <td>fila 3, celda 1</td>
+                    <td>fila 3, celda 2</td>
+                    <td>fila 3, celda 3</td>
+
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>fila 4, celda 1</td>
+                    <td>fila 4, celda 2</td>
+                    <td>fila 4, celda 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td colspan="2">fila a, celda 1</td>
+                    <td rowspan="2">fila b, celda 2</td>
+                </tr>
+                <tr>
+                    <td colspan="2">fila c, celda 3</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+    </main>
+    
+</body>
+</html>

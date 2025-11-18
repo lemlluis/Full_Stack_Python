@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Formularios + inputs</h1>
+
+        <form action="">
+            <h2>Imputs</h2>
+
+            <label for="Text1">input tipo texto</label>
+            <input type="text" placeholder="Escribeme" id="Text1" />
+            <label for="">
+
+                input de solo lectura
+                <input type="text" placeholder="solo lectura" readonly value="copia este codigo">
+            </label>
+
+            <label for="">
+                input desactivado
+                <input type="text" placeholder="solo lectura" disabled>
+            </label>
+
+            <label for="">
+                input tipo numero
+                <input type="number" placeholder="solo numeros" min="10" max="99">
+            </label>
+
+            <label for="">
+                Tipo Email
+                <input type="email" placeholder="Tu Email">
+            </label>
+
+            <label for="">
+                Tipo Rango
+                <input type="range" min="0" max="100" step="10">
+            </label>
+
+            <label for="">
+                Tipo Telefono
+                <input type="tel" placeholder="Codigo de tu celular">
+            </label>
+
+            <label for="">
+                Tipo Url
+                <input type="url" placeholder="Pagina Web">
+            </label>
+
+            <label for="">
+                Tipo Password
+                <input type="password" placeholder="Password">
+            </label>
+
+            <label for="">
+                Tipo Color
+                <input type="color">
+            </label>
+
+            <label for="">
+                Tipo Busqueda
+                <input type="search">
+            </label>
+            <label for="">
+                Tipo Archivo nos deja seleccionar 1 archivo a la vez
+                <input type="file" accept=".png">
+            </label>
+
+            <label for="">
+                input tipo de archivos multiples
+                <input type="file" multiple>
+
+            </label>
+
+            <label for="">
+
+                <input type="hidden" value="datos-ocultos">
+            </label>
+
+            <input type="submit" value="Guardar">
+            
+
+        </form>
+        <form action="">
+            <h2>input tipo fecha</h2>
+
+            <label for="">
+                tipo fecha y hora
+                <input type="datetime-local">
+            </label>
+
+            <label for="">
+                tipo dia
+                <input type="date">
+            </label>
+            <label for="">
+                tipo hora
+                <input type="time">
+            </label>
+            <!--lo mismo para semana y mes-->
+
+        </form>
+
+        <form action="">
+
+            <h2>Textarea</h2>
+            <label for="">
+                <textarea placeholder="escribe una descripcion sobre ti" rows="15" cols="4"></textarea>
+            </label>
+        </form>
+
+        <form action="">
+            <h2>Selects</h2>
+            <label for="">
+                Seleccion Simple
+                <select name="" id="">
+                    <option value="">Selecionar tu comida favorita</option>
+                    <option value="fr">Francesa</option>
+                    <option value="jp">japonesa</option>
+                    <option value="pe">Peruana</option>
+                </select>
+            </label>
+
+            <label for="">
+                Seleccion multiple
+                <select multiple>
+                    <option value="">Selecionar tu comida favorita</option>
+                    <option value="fr">Francesa</option>
+                    <option value="jp">japonesa</option>
+                    <option value="pe">Peruana</option>
+                </select>
+            </label>
+        </form>  
+        
+        <form action="">
+            <h2>Checkbox</h2>
+
+            <h3>Lenguajes de Preferencias</h3>
+            <label for="">
+                <input type="checkbox" name="english" value="en"> 
+                ingles
+            </label>
+             <label for="">
+                <input type="checkbox" name="spanish" value="es"> 
+                español
+            </label>
+             <label for="">
+                <input type="checkbox" name="dothraki" value="do"> 
+                dothraki
+            </label>
+        </form>
+
+        <form action="">
+            <h3>Lenguajes de Preferencias</h3>
+            <label for="">
+                <input type="radio" name="lenguaje" value="en"> 
+                ingles
+            </label>
+             <label for="">
+                <input type="radio" name="lenguaje" value="es"> 
+                español
+            </label>
+             <label for="">
+                <input type="radio" name="lenguaje" value="do"> 
+                dothraki
+            </label>
+
+
+        </form>
+
+        <form action="">
+            <h2>Validaciones</h2>
+            <label for="">
+                Nombre Obligatorio
+                <input type="text" name="nombre" required minlength="3">
+
+            </label>
+
+            <label for="">
+                Email Obligatorio
+                <input type="email" name="correo" required>
+            </label>
+
+
+            <input type="submit" value="cargalo" required minlength="3">
+        </form>
+    </main>
+    
+</body>
+</html>
