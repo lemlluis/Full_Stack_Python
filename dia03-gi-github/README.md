@@ -15,3 +15,5 @@ configuraciones
 - git add .
 - git commit -m "Archivos de la primera semana"
 - git log muestra los commits realizados
+- git show
+- 
