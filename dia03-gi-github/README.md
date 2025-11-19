@@ -14,3 +14,4 @@ configuraciones
 - git status:  ver estado de repositorio 
 - git add .
 - git commit -m "Archivos de la primera semana"
+- git log muestra los commits realizados
